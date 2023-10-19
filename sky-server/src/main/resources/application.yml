@@ -42,9 +42,15 @@ sky:
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+    user-secret-key: syd
+    user-ttl: 7200000
+    user-token-name: authentication
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5tSGXNtcn3meNojKnEET
     access-key-secret: bwtFCmWCI0LtGefI81eaVhFIWuKvLy
     bucket-name: syd-take-out
+  wechat:
+    appid: wxfb9f39ffc3a18f16
+    secret: bfe787d8bb7a030c05811754fe629649
 
